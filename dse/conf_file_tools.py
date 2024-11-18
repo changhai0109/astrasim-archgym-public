@@ -1,14 +1,14 @@
 import os, json, yaml, copy
 import graphviz
-from chakra.third_party.utils.protolib import (
-    openFileRd as open_file_rd,
-    decodeMessage as decode_message,
-    encodeMessage as encode_message
-)
-from chakra.et_def.et_def_pb2 import (
-    GlobalMetadata,
-    Node,
-)
+# from chakra.third_party.utils.protolib import (
+#     openFileRd as open_file_rd,
+#     decodeMessage as decode_message,
+#     encodeMessage as encode_message
+# )
+# from chakra.et_def.et_def_pb2 import (
+#     GlobalMetadata,
+#     Node,
+# )
 
 
 def workload_cfg_to_workload(workload: dict, output_et_file: str):
